@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          Wikipedia Optimizor - Warm Paper Theme
 // @version       Beta
-// @description	  A neat warm paper theme, with smart contents sidebar, multilingual links, and other powerful optiminzations
+// @description	  A neat warm paper theme, with smart toc sidebar, explicit multilingual links, and other powerful optiminzations
 // @license       MIT
 // @author        Li, Yifei
 // @namespace     https://github.com/yli/Userscript-Wikipedia-Optimizor
