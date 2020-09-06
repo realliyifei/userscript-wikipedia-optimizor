@@ -28,4 +28,4 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 
 [Warm_Paper_Theme_Image]: ./assets/Warm_Paper_Theme.png
 [TM_web]: http://www.tampermonkey.net/
-[userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js#bypass=true
+[userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
