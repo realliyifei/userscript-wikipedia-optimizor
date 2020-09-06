@@ -15,7 +15,7 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 
 ### Completed
 
-* **Minimalism Warm Paper Theme:** a stunning newspaper-like reading experience with minimalism design
+* **Warm Paper Theme:** a stunning newspaper-like reading experience with minimalism design
 * **Smart TOC Sidebar:** a fixed contents sidebar, with shadow following the scrolling 
 
 ### Coming soon (before Jan 30, 2021): 
