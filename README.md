@@ -1,10 +1,10 @@
 # Userscript Wikipedia Optimizor
  
-Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, explicit multilingual links, and other useful optiminzations. 
+Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, explicit multilingual links, and other useful optimizations. 
 
 ![][Warm_Paper_Theme_Image]
 
-*Notes:* This side-project is *still under development* and has not been published to public yet. But the main functions were finisehd as showed above. You can use this beta version now if you like.
+*Notes:* This side-project is *still under development* and has not been published to public yet. But the main functions were finished as showed above. You can use this beta version now if you like.
 
 ## Installation
 
