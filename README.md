@@ -29,3 +29,13 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 [Warm_Paper_Theme_Image]: ./assets/Warm_Paper_Theme.png
 [TM_website]: http://www.tampermonkey.net/
 [userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
+
+---
+
+## Limitations
+
+This userscript has been tested *only* in English wikipedia pages. Although it should be logically universial to all languages, it's not guaranteed. 
+
+## Credits & License
+
+* The aesthetic design of *Warm Paper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish.
