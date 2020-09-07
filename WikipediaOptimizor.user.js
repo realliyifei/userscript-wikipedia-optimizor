@@ -11,8 +11,8 @@
 // @include       https://*.wikipedia.org/*
 // @include       http://en.wikipedia.org/wiki/File:*
 // @run-at        document-start
-// @downloadURL   https://github.com/yli/Userscript-Wikipedia-Optimizor/WikipediaOptimizor.user.js
-// @updateURL     https://github.com/yli/Userscript-Wikipedia-Optimizor/WikipediaOptimizor.user.js
+// @downloadURL   https://github.com/yli/Userscript-Wikipedia-Optimizor/blob/master/WikipediaOptimizor.user.js
+// @updateURL     https://github.com/yli/Userscript-Wikipedia-Optimizor/blob/master/WikipediaOptimizor.user.js
 // @supportURL    https://github.com/yli/Userscript-Wikipedia-Optimizor/issues
 // ==/UserScript==
 
