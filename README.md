@@ -8,7 +8,7 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 
 ## Installation
 
-1. Install [Tampermonkey][TM_web] to your browser if you don't have one yet.
+1. Install [Tampermonkey][TM_website] to your browser if you don't have one yet.
 2. Click [this link][userjs_file] to install *directly* (it will install automatically once being clicked and then you can close the tab).
 
 ## Function Lists
@@ -21,11 +21,11 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 ### Coming soon (before Jan 30, 2021): 
 
 *  **Academic Paper Theme:** a black-and-white theme with explicit citation links for academia and research
-*  **Explicit Multilingual link(s):** multilingual links to the corresponding wikipedia pages with explicit displayed titles and the customization support
+*  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit displayed titles and the customization support
 *  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
-*  **External Links:** a set of customized external links for further research
+*  **External Search Links:** a set of customized external links for further search
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
 
 [Warm_Paper_Theme_Image]: ./assets/Warm_Paper_Theme.png
-[TM_web]: http://www.tampermonkey.net/
+[TM_website]: http://www.tampermonkey.net/
 [userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
