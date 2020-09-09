@@ -1,4 +1,4 @@
-# Userscript Wikipedia Optimizor
+# Wikipedia Optimizor (Tampormonkey Userscript)
  
 Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, explicit multilingual links, and other useful optimizations. 
 
@@ -25,10 +25,8 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 *  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
 *  **External Search Links:** a set of customized external links for further search
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
-
-[Warm_Paper_Theme_Image]: ./assets/Warm_Paper_Theme.png
-[TM_website]: http://www.tampermonkey.net/
-[userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
+* May also create a separate JavaScript and CSS files for the usage of wikipedia built-in skin setting
+* May also publish to gist and stylish
 
 ---
 
@@ -38,4 +36,9 @@ This userscript has been tested *only* in English wikipedia pages. Although it s
 
 ## Credits & License
 
-* The aesthetic design of *Warm Paper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish.
+* The aesthetic design of *Warm Paper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition][origin_theme_source] from stylish.
+
+[Warm_Paper_Theme_Image]: ./assets/Warm_Paper_Theme.png
+[TM_website]: http://www.tampermonkey.net/
+[userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
+[origin_theme_source]: https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition
