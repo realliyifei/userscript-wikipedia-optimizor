@@ -1,4 +1,4 @@
-# Wikipedia Optimizor (Tampormonkey Userscript)
+# Wikipedia Optimizor (Tampermonkey Userscript)
  
 Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, explicit multilingual links, and other useful optimizations. 
 
