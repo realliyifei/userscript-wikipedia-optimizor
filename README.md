@@ -21,7 +21,7 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 ### Coming soon (before Jan 30, 2021): 
 
 *  **Academic Paper Theme:** a black-and-white theme with explicit citation links for academia and research
-*  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit displayed titles and the customization support
+*  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
 *  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
 *  **External Search Links:** a set of customized external links for further search
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
