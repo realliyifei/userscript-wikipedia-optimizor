@@ -40,5 +40,5 @@ This userscript has been tested *only* in English wikipedia pages. Although it s
 
 [Warm_Paper_Theme_Image]: ./assets/Warm_Paper_Theme.png
 [TM_website]: http://www.tampermonkey.net/
-[userjs_file]: https://raw.githubusercontent.com/yli/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
+[userjs_file]: https://raw.githubusercontent.com/realliyifei/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js
 [origin_theme_source]: https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition

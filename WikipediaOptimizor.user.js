@@ -3,17 +3,17 @@
 // @version       Beta
 // @description	  A neat warm paper theme, with smart toc sidebar, explicit multilingual links, and other powerful optimizations
 // @license       MIT
-// @author        Li, Yifei
-// @namespace     https://github.com/yli/Userscript-Wikipedia-Optimizor
+// @author        Li, Yi-Fei
+// @namespace     https://github.com/realliyifei/Userscript-Wikipedia-Optimizor
 // @include       http://wikipedia.org/*
 // @include       https://wikipedia.org/*
 // @include       http://*.wikipedia.org/*
 // @include       https://*.wikipedia.org/*
 // @include       http://en.wikipedia.org/wiki/File:*
 // @run-at        document-start
-// @downloadURL   https://github.com/yli/Userscript-Wikipedia-Optimizor/blob/master/WikipediaOptimizor.user.js
-// @updateURL     https://github.com/yli/Userscript-Wikipedia-Optimizor/blob/master/WikipediaOptimizor.user.js
-// @supportURL    https://github.com/yli/Userscript-Wikipedia-Optimizor/issues
+// @downloadURL   https://github.com/realliyifei/Userscript-Wikipedia-Optimizor/blob/master/WikipediaOptimizor.user.js
+// @updateURL     https://github.com/realliyifei/Userscript-Wikipedia-Optimizor/blob/master/WikipediaOptimizor.user.js
+// @supportURL    https://github.com/realliyifei/Userscript-Wikipedia-Optimizor/issues
 // ==/UserScript==
 
 /* WARM PAPER THEME */
