@@ -18,7 +18,7 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 * **Warm Paper Theme:** a stunning newspaper-like reading experience with minimalism design
 * **Smart TOC Sidebar:** a fixed contents sidebar, with shadow following the scrolling 
 
-### Coming soon (before Jan 30, 2021): 
+### Coming later: 
 
 *  **Academic Paper Theme:** a black-and-white theme with explicit citation links for academia and research
 *  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
