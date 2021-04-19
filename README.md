@@ -22,6 +22,7 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 
 *  **Academic Paper Theme:** a black-and-white theme with explicit citation links for academia and research
 *  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
+*  **Collapsible Sidebar:** a collapsible sidebar of content based on the browser window size and mouse click
 *  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
 *  **External Search Links:** a set of customized external links for further search
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
