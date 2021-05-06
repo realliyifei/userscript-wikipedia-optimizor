@@ -11,14 +11,14 @@ Userscript for wikipedia: a neat warm paper theme, with smart toc sidebar, expli
 1. Install [Tampermonkey][TM_website] to your browser if you don't have one yet.
 2. Click [this link][userjs_file] to install *directly* (it will install automatically once being clicked and then you can close the tab).
 
-## Function Lists
+## Function List
 
 ### Completed
 
 * **Warm Paper Theme:** a stunning newspaper-like reading experience with minimalism design
 * **Smart TOC Sidebar:** a fixed contents sidebar, with shadow following the scrolling 
 
-### Coming later
+### Coming Later
 
 *  **Academic Paper Theme:** a black-and-white theme with explicit citation links for academia and research
 *  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
