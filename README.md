@@ -22,9 +22,9 @@ A stunning newspaper-like reading experience with minimalism design
 ## Coming Later
 
 *  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
-*  **Collapsible Sidebar:** a collapsible sidebar of content based on the browser window size and mouse click
+*  **Collapsible Sidebar:** a collapsible sidebar of content based on the browser window size and mouse click 
 *  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
-*  **External Search Links:** a set of customized external links for further search (e.g. google scholar, zhihu, douban, reddit)
+*  **External Search Links:** a set of customized external links for further search (e.g. google scholar, zhihu, douban, reddit, [wiki map](https://wikipedia.luk.ke))
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
 * Might also publish to gist and stylish
 
