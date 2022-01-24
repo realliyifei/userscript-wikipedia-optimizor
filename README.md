@@ -2,34 +2,31 @@
 
 Userscript for wikipedia: Wikipedia optimizor, with various themes, smart TOC sidebar, explicit multilingual links, and other handy optimizations.
 
-## Themes
+## Features
 
-You can change the theme in the "theme" section of  javascript file.
+* **Smart TOC Sidebar:** a content sidebar, with shadow following the scrolling, and color changing after visited
+* **Various Themes:** in the "theme" section of  javascript file, you can change the theme to one of them:
 
 ### Academia Theme (default)
 
 A black-and-white theme with explicit citation links for academia and research
 
-![][asset/academia-theme-demo.png] 
+![](asset/academia-theme-demo.png)
 
 ### Warmpaper Theme
 
 A stunning newspaper-like reading experience with minimalism design
 
-![][asset/warmpaper-theme-demo.png] 
+![](asset/warmpaper-theme-demo.png)
 
-## Features
-
-* **Smart TOC Sidebar:** a content sidebar, with shadow following the scrolling, and color changing after visited
-
-### Coming Later
+## Coming Later
 
 *  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
 *  **Collapsible Sidebar:** a collapsible sidebar of content based on the browser window size and mouse click
 *  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
 *  **External Search Links:** a set of customized external links for further search (e.g. google scholar, zhihu, douban, reddit)
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
-* May also publish to gist and stylish
+* Might also publish to gist and stylish
 
 ## Installation
 
