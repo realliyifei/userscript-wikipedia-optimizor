@@ -30,8 +30,8 @@ A stunning newspaper-like reading experience with minimalism design
 
 ## Installation
 
-1. Install [Tampermonkey][http://www.tampermonkey.net/] to your browser if you don't have one yet.
-2. Click [this link][ https://raw.githubusercontent.com/realliyifei/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js] to install *directly* (it will install automatically once being clicked and then you can close the tab).
+1. Install [Tampermonkey](http://www.tampermonkey.net/) to your browser if you don't have one yet.
+2. Click [this link](https://raw.githubusercontent.com/realliyifei/Userscript-Wikipedia-Optimizor/master/WikipediaOptimizor.user.js) to install *directly* (it will install automatically once being clicked and then you can close the tab).
 
 ## Limitations
 
@@ -39,4 +39,4 @@ This userscript has been tested *only* in English wikipedia pages. Although it s
 
 ## Credits & License
 
-* The aesthetic design of *Warm Paper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition][https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition] from stylish.
+* The aesthetic design of *Warm Paper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish.
