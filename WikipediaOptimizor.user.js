@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          Wikipedia Optimizor - Warm Paper Theme
 // @version       1.0.0
-// @description	  Wikipedia optimizor, with various themes, smart toc sidebar, explicit multilingual links, and handy powerful optimizations
+// @description	  Wikipedia optimizor, with various themes, smart toc sidebar, explicit multilingual links, and handy optimizations
 // @license       MIT
 // @author        Li, Yifei
 // @namespace     https://github.com/realliyifei/userscript-wikipedia-optimizor
@@ -27,7 +27,7 @@
 
 /* THEME */
 (function() {
-    // select theme here: acamida or warmpaper
+    // select theme here: academia or warmpaper
     var css = GM_getResourceText("theme_academia");
     // var css = GM_getResourceText("theme_warmpaper");
     

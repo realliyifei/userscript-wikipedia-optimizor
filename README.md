@@ -1,6 +1,6 @@
 # Wikipedia Optimizor (Tampermonkey Userscript)
 
-Userscript for wikipedia: Wikipedia optimizor, with various themes, smart TOC sidebar, explicit multilingual links, and other handy optimizations.
+Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc sidebar, explicit multilingual links, and handy optimizations
 
 ## Features
 
@@ -9,7 +9,7 @@ Userscript for wikipedia: Wikipedia optimizor, with various themes, smart TOC si
 
 ### Academia Theme (default)
 
-A black-and-white theme with explicit citation links for academia and research
+A black-and-white theme with clear citation links for academia and research
 
 ![](asset/academia-theme-demo.png)
 
@@ -35,8 +35,8 @@ A stunning newspaper-like reading experience with minimalism design
 
 ## Limitations
 
-This userscript has been tested *only* in English wikipedia pages. Although it should be logically universial to all languages, it's not guaranteed. 
+This userscript has been tested *only* in English wikipedia pages, though it should be functionally general to all language versions.. 
 
 ## Credits & License
 
-* The aesthetic design of *Warm Paper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish.
+* The aesthetic design of *Warmpaper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish.
