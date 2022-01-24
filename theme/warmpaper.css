@@ -8,7 +8,7 @@
   /* content style */
   body {
       font-size: inherit;
-      background: url(https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/theme/warmpaper.png);
+      background: url(http://i.imgur.com/anSVcTO.png);
       // background: white;
   }
   #bodyContent {
@@ -116,7 +116,7 @@
       // border-radius: 2px !important;
       font-size: 12px;
       font-weight: 400;
-      background: url(https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/theme/warmpaper.png);
+      background: url(http://i.imgur.com/anSVcTO.png);
       /* make sidebar  */
       position: fixed !important;
       display: inline-block;
@@ -130,7 +130,7 @@
       overflow: auto;
       // z-index: 99999;
       // height: 100%;
-      background: #EDEDED url(https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/theme/warmpaper.png) center center scroll;
+      background: #EDEDED url(http://i.imgur.com/anSVcTO.png) center center scroll;
       // background: white center center scroll;
       }
   /* table of contents style and interaction*/
@@ -141,7 +141,7 @@
       // border-radius: 2px !important;
       font-size: 12px;
       font-weight: 400;
-      background: url(https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/theme/warmpaper.png);
+      background: url(http://i.imgur.com/anSVcTO.png);
       /* make sidebar  */
       position: fixed !important;
       display: inline-block;
@@ -155,7 +155,7 @@
       overflow: auto;
       // z-index: 99999;
       // height: 100%;
-      background: #EDEDED url(https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/theme/warmpaper.png) center center scroll;
+      background: #EDEDED url(http://i.imgur.com/anSVcTO.png) center center scroll;
       // background: white center center scroll;
       }
       #toc > ul {
@@ -163,7 +163,7 @@
           /*word-break: break-all !important;*/
           /*height: 100% !important;*/
           overflow-x: hidden !important;
-          background: #EDEDED url(https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/theme/warmpaper.png) center center scroll;
+          background: #EDEDED url(http://i.imgur.com/anSVcTO.png) center center scroll;
           // background: white center center scroll;
           padding: 1em 0 5em;
           margin: auto 0 !important;
