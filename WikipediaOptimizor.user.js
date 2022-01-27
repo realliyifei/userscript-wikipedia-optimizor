@@ -97,87 +97,150 @@
 
     };
 
-    /* LANGUAGE DISPLAY */
-    (function() {
-        var langs = ['en','zh','fr']; // Add language tabs, e.g. fr, de, ja, ko, etc. (ISO 639-1)
-        for(var i in langs){
-            var lang = $('#p-lang > div > ul > li.interlanguage-link.interwiki-' + langs[i]).html();
-            console.log('F: '+lang);
-            if(lang){
-                var node = '<li><span>' + lang + '</span></li>';
-                // $('#mw-page-base').append(node)
-                // $('#mw-head-base').append(node)
-                // $('#content').append(node)
-                // $('#toc').append(node)
-                // $('#mw-page-base > div > ul').append(node)
-                // $('#toc > div > ul').append(node);
-                $('#toc > div > ul').append(node)
-                /*
-                var button = document.createElement("Button");
-                // button.innerHTML = "Title";
-                button.innerHTML = lang;
-                button.style = "top:0; right:0;position:fixed;"
-                document.body.appendChild(button);
-                */
-            }
-        }
-    })();
+/* LANGUAGE DISPLAY */
+// (function() {
+//     var langs = ['en','zh','fr']; // Add language tabs, e.g. fr, de, ja, ko, etc. (ISO 639-1)
+//     for(var i in langs){
+//         var lang = $('#p-lang > div > ul > li.interlanguage-link.interwiki-' + langs[i]).html();
+//         console.log('F: '+lang);
+//         if(lang){
+//             var node = '<li><span>' + lang + '</span></li>';
+//             // $('#mw-page-base').append(node)
+//             // $('#mw-head-base').append(node)
+//             // $('#content').append(node)
+//             // $('#toc').append(node)
+//             // $('#mw-page-base > div > ul').append(node)
+//             // $('#toc > div > ul').append(node);
+//             $('#toc > div > ul').append(node)
+//             /*
+//             var button = document.createElement("Button");
+//             // button.innerHTML = "Title";
+//             button.innerHTML = lang;
+//             button.style = "top:0; right:0;position:fixed;"
+//             document.body.appendChild(button);
+//             */
+//         }
+//     }
+// })();
 
-    (function () {
-        /*
-            Customize labels by editing LABEL_STYLE.
-            "LABEL", "LANG_CODE" and "LANG_NAME" will be replaced.
+// (function () {
+//     /*
+//         Customize labels by editing LABEL_STYLE.
+//         "LABEL", "LANG_CODE" and "LANG_NAME" will be replaced.
 
-            e.g.
-                "LABEL (LANG_NAME)" => "Étoile (Français)"
-                "[LANG_CODE]LABEL" => "[fr]Étoile"
-         */
-        var LABEL_STYLE = 'Étoile (Français)';
+//         e.g.
+//             "LABEL (LANG_NAME)" => "Étoile (Français)"
+//             "[LANG_CODE]LABEL" => "[fr]Étoile"
+//      */
+//     var LABEL_STYLE = 'Étoile (Français)';
 
-        var _REPLACEMENT_LABEL = 'LABEL';
-        var _REPLACEMENT_LANG_CODE = 'LANG_CODE';
-        var _REPLACEMENT_LANG_NAME = 'LANG_NAME';
-        var _REGEXP_LINK = new RegExp('http:\/\/([a-z\-]+)\.wikipedia\.org\/wiki\/([^#]+)');
-        var _REGEXP_SPACES = new RegExp('_', 'g');
-        var links = document.getElementById('p-lang').getElementsByTagName('A');
-        for (var i=0; i<links.length; i++) {
-            var link = links[i];
-            if (link.hreflang && link.href.match(_REGEXP_LINK)) {
-                var langCode = RegExp.$1;
-                var langName = link.innerHTML;
-                var label = decodeURI(RegExp.$2).replace(_REGEXP_SPACES, ' ');
-                link.innerHTML = LABEL_STYLE
-                    .replace(_REPLACEMENT_LABEL, label)
-                    .replace(_REPLACEMENT_LANG_CODE, langCode)
-                    .replace(_REPLACEMENT_LANG_NAME, langName);
-                // START LYF
+//     var _REPLACEMENT_LABEL = 'LABEL';
+//     var _REPLACEMENT_LANG_CODE = 'LANG_CODE';
+//     var _REPLACEMENT_LANG_NAME = 'LANG_NAME';
+//     var _REGEXP_LINK = new RegExp('http:\/\/([a-z\-]+)\.wikipedia\.org\/wiki\/([^#]+)');
+//     var _REGEXP_SPACES = new RegExp('_', 'g');
+//     var links = document.getElementById('p-lang').getElementsByTagName('A');
+//     for (var i=0; i<links.length; i++) {
+//         var link = links[i];
+//         if (link.hreflang && link.href.match(_REGEXP_LINK)) {
+//             var langCode = RegExp.$1;
+//             var langName = link.innerHTML;
+//             var label = decodeURI(RegExp.$2).replace(_REGEXP_SPACES, ' ');
+//             link.innerHTML = LABEL_STYLE
+//                 .replace(_REPLACEMENT_LABEL, label)
+//                 .replace(_REPLACEMENT_LANG_CODE, langCode)
+//                 .replace(_REPLACEMENT_LANG_NAME, langName);
+//             // START LYF
 
-                // var button = document.createElement(langName);
-                var button = document.createElement("test");
-                button.innerHTML = link.innerHTML;
-                button.style = "top:0;right:0;position:fixed;"
-                document.body.appendChild(button);
+//             // var button = document.createElement(langName);
+//             var button = document.createElement("test");
+//             button.innerHTML = link.innerHTML;
+//             button.style = "top:0;right:0;position:fixed;"
+//             document.body.appendChild(button);
 
-                //$('button selector').click(function(){
-                //   window.location.href=link.innerHTML;
-                //})
-                // END LYF
-            }
-        }
-    })();
+//             //$('button selector').click(function(){
+//             //   window.location.href=link.innerHTML;
+//             //})
+//             // END LYF
+//         }
+//     }
+// })();
 
-    /*
-    var button = document.createElement("Button");
-    button.innerHTML = "Title";
-    button.style = "top:0;right:0;position:absolute;z-index: 9999"
-    document.body.appendChild(button);
-    */
-    /* STICK TABLE HEADERS (bug) */
-    waitForKeyElements ("table.jquery-tablesorter", floatTableHeaders, true);
+/* LANGUAGE DISPLAY V2 */
+(function () {
+	'use strict';
 
-    function floatTableHeaders(table){
-      $(table).floatThead();
-    }
+	console.log('Executing Wikipedia article name with language.');
 
-    /* ClEAN DONATION REQUEST */
-    // GM.addStyle("html body #centralNotice, html body [id*=frbanner], html body [id*=frb-inline] { display: none !important; }");
+	// Utilities.
+
+	const sel = document.querySelector.bind(document);
+	const selAll = document.querySelectorAll.bind(document);
+	const eq = a => b => a === b;
+	const test = regex => text => regex.test(text);
+	const testOn = text => regex => regex.test(text);
+	const prepend = a => b => a + b;
+	const makeEl = (tag, attrs, ...content) => {
+		const el = document.createElement(tag);
+		if (attrs) Object.keys(attrs).forEach(attr => el.setAttribute(attr, attrs[attr]));
+		content.map(obj => typeof obj === 'string' ? document.createTextNode(obj) : obj)
+			.forEach(node => el.appendChild(node));
+		return el;
+	};
+	const pipe = (...fs) => fs.reduce((left, right) => (...args) => right(left(...args)));
+	const uniq = list => {
+		const seen = [];
+		return list.filter(item => seen.some(eq(item)) ? false : (seen.push(item), true));
+	};
+	const not = f => (...args) => !f(...args);
+
+	//
+	const elements = Array.from(selAll('.interlanguage-link'));
+
+	elements.forEach(el => {
+		const a = el.getElementsByTagName('a')[0];
+		const langName = a.textContent;
+		const titleAndLanguage = a.getAttribute('title');
+		const titleMatcher = [
+				/(.+) – .+/,    // English, etc.
+				/(.+) +\(.+\)/, // Spanish, etc.
+				/.+: (.+)/,     // Japanese, etc.
+			]
+			.find(testOn(titleAndLanguage));
+		const title = titleAndLanguage.replace(titleMatcher, '$1');
+		a.textContent = '';
+		a.appendChild(makeEl('span', { 'class': 'language-name' },
+			langName));
+		a.appendChild(document.createTextNode(' '));
+		a.appendChild(makeEl('span', { 'class': 'article-title' },
+			title));
+	});
+
+	// Styles.
+	sel('head').appendChild(makeEl('style', null,
+		`
+		.interlanguage-link .language-name {
+			display: block;
+			text-transform: uppercase;
+			font-size: 0.7em;
+		}
+		`
+	));
+
+})();
+
+/*
+var button = document.createElement("Button");
+button.innerHTML = "Title";
+button.style = "top:0;right:0;position:absolute;z-index: 9999"
+document.body.appendChild(button);
+*/
+/* STICK TABLE HEADERS (bug) */
+waitForKeyElements ("table.jquery-tablesorter", floatTableHeaders, true);
+
+function floatTableHeaders(table){
+  $(table).floatThead();
+}
+
+/* ClEAN DONATION REQUEST */
+// GM.addStyle("html body #centralNotice, html body [id*=frbanner], html body [id*=frb-inline] { display: none !important; }");
