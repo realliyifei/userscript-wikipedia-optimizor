@@ -14,7 +14,7 @@ Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc si
 
 An omnipotent all-in-one optimizor of wikipedia, containing all the features mentioned above
 
-Note that this theme is stil under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable and you can just need to follow the procedures in the installation section.
+Note that this theme is still under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable now and you can just need to follow the procedures in the installation section.
 
 ### Academia Theme 
 
@@ -42,8 +42,9 @@ A stunning newspaper-like reading experience with minimalism design, only contai
 
 ## Limitations
 
-This userscript has been tested *only* in English wikipedia pages, though it should be functionally general to all language versions.. 
+This userscript has been tested *only* in English wikipedia pages, though it should be functionally general to all language versions.
 
 ## Credits & License
 
-* The aesthetic design of *Warmpaper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish. The functional design is mainly inspired by Chen VinC's [Wikipedia Minima](https://userstyles.org/styles/166052/wikipedia-minima) from stylish.
+* The aesthetic design of *Warmpaper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish. 
+* The code that implements collapsible panel and semitransparent header is mainly from Chen VinC's [Wikipedia Minima](https://userstyles.org/styles/166052/wikipedia-minima) from stylish.
