@@ -22,7 +22,8 @@
 // @require       https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.3.2/jquery.floatThead.min.js
 // @resource      LOCAL_DEV_CSS   file:///Users/yifeili/git-local/userscript-wikipedia-optimizor/theme/academia-dev.css
 // @resource      theme_academia  https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/academia.css
-// @resource      theme_warmpaper https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/warmpaper.css
+// @resource      theme_warmpaper https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/
+// @resource      theme_transformer https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/dev/dev.css
 // @grant         GM_getResourceText
 // @grant         GM_addStyle
 // ==/UserScript==
@@ -30,9 +31,10 @@
 /* THEME */
 (function() {
     // select theme here: acamida or warmpaper
-    var css = GM_getResourceText("LOCAL_DEV_CSS"); // for local debug; only work in chrome
+    // var css = GM_getResourceText("LOCAL_DEV_CSS"); // for local debug; only work in chrome
     // var css = GM_getResourceText("theme_academia");
     // var css = GM_getResourceText("theme_warmpaper");
+    var css = GM_getResourceText("theme_transformer");
 
     if (false || (document.location.href.indexOf("http://en.wikipedia.org/wiki/File:") == 0))
 
