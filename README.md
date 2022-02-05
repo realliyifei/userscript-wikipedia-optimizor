@@ -10,21 +10,23 @@ Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc si
 4. **Semitransparent Header and Search Box:** a semitransparent header and search box on the top, triggered by moving your cursor to the head
 5. **Hidden Warnings and Requests:** hide some warnings and donation request 
 
+## Themes
+
 ### Transformer Theme (default)
 
-An omnipotent all-in-one optimizor of wikipedia, containing all the features mentioned above
+An omnipotent all-in-one optimizor of wikipedia, containing all the features mentioned above.
 
 Note that this theme is still under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable now and you just need to follow the procedures in the installation section.
 
 ### Academia Theme 
 
-A black-and-white theme with clear citation links for academia and research, only contain the first feature
+A black-and-white theme with clear citation links for academia and research, only contains the first feature.
 
 ![](asset/academia-theme-demo.png)
 
 ### Warmpaper Theme
 
-A stunning newspaper-like reading experience with minimalism design, only contain the first feature
+A stunning newspaper-like reading experience with minimalism design, only contains the first feature.
 
 ![](asset/warmpaper-theme-demo.png)
 
