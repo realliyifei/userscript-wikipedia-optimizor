@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          Wikipedia Optimizor
-// @version       2.1.0
+// @version       2.1.1
 // @description	  Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc sidebar, collapsible panel, explicit multilingual links, and handy optimizations
 // @license       MIT
 // @author        Li, Yifei
