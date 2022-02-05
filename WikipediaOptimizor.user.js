@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          Wikipedia Optimizor
-// @version       2.0.0
+// @version       2.1.0
 // @description	  Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc sidebar, collapsible panel, explicit multilingual links, and handy optimizations
 // @license       MIT
 // @author        Li, Yifei
@@ -23,7 +23,7 @@
 // @resource      LOCAL_DEV_CSS   file:///Users/yifeili/git-local/userscript-wikipedia-optimizor/theme/academia-dev.css
 // @resource      theme_academia  https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/academia.css
 // @resource      theme_warmpaper https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/
-// @resource      theme_transformer https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/dev/dev.css
+// @resource      theme_transformer https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/transformer.css
 // @grant         GM_getResourceText
 // @grant         GM_addStyle
 // ==/UserScript==
@@ -99,76 +99,8 @@
 
     };
 
+
 /* LANGUAGE DISPLAY */
-// (function() {
-//     var langs = ['en','zh','fr']; // Add language tabs, e.g. fr, de, ja, ko, etc. (ISO 639-1)
-//     for(var i in langs){
-//         var lang = $('#p-lang > div > ul > li.interlanguage-link.interwiki-' + langs[i]).html();
-//         console.log('F: '+lang);
-//         if(lang){
-//             var node = '<li><span>' + lang + '</span></li>';
-//             // $('#mw-page-base').append(node)
-//             // $('#mw-head-base').append(node)
-//             // $('#content').append(node)
-//             // $('#toc').append(node)
-//             // $('#mw-page-base > div > ul').append(node)
-//             // $('#toc > div > ul').append(node);
-//             $('#toc > div > ul').append(node)
-//             /*
-//             var button = document.createElement("Button");
-//             // button.innerHTML = "Title";
-//             button.innerHTML = lang;
-//             button.style = "top:0; right:0;position:fixed;"
-//             document.body.appendChild(button);
-//             */
-//         }
-//     }
-// })();
-
-// (function () {
-//     /*
-//         Customize labels by editing LABEL_STYLE.
-//         "LABEL", "LANG_CODE" and "LANG_NAME" will be replaced.
-
-//         e.g.
-//             "LABEL (LANG_NAME)" => "Étoile (Français)"
-//             "[LANG_CODE]LABEL" => "[fr]Étoile"
-//      */
-//     var LABEL_STYLE = 'Étoile (Français)';
-
-//     var _REPLACEMENT_LABEL = 'LABEL';
-//     var _REPLACEMENT_LANG_CODE = 'LANG_CODE';
-//     var _REPLACEMENT_LANG_NAME = 'LANG_NAME';
-//     var _REGEXP_LINK = new RegExp('http:\/\/([a-z\-]+)\.wikipedia\.org\/wiki\/([^#]+)');
-//     var _REGEXP_SPACES = new RegExp('_', 'g');
-//     var links = document.getElementById('p-lang').getElementsByTagName('A');
-//     for (var i=0; i<links.length; i++) {
-//         var link = links[i];
-//         if (link.hreflang && link.href.match(_REGEXP_LINK)) {
-//             var langCode = RegExp.$1;
-//             var langName = link.innerHTML;
-//             var label = decodeURI(RegExp.$2).replace(_REGEXP_SPACES, ' ');
-//             link.innerHTML = LABEL_STYLE
-//                 .replace(_REPLACEMENT_LABEL, label)
-//                 .replace(_REPLACEMENT_LANG_CODE, langCode)
-//                 .replace(_REPLACEMENT_LANG_NAME, langName);
-//             // START LYF
-
-//             // var button = document.createElement(langName);
-//             var button = document.createElement("test");
-//             button.innerHTML = link.innerHTML;
-//             button.style = "top:0;right:0;position:fixed;"
-//             document.body.appendChild(button);
-
-//             //$('button selector').click(function(){
-//             //   window.location.href=link.innerHTML;
-//             //})
-//             // END LYF
-//         }
-//     }
-// })();
-
-/* LANGUAGE DISPLAY V2 */
 (function () {
 	'use strict';
 
@@ -200,6 +132,7 @@
 	const elements = Array.from(selAll('.interlanguage-link'));
 
 	elements.forEach(el => {
+	    // var langs = ['en','zh','fr']; // Add language tabs, e.g. fr, de, ja, ko, etc. (ISO 639-1)
 		const a = el.getElementsByTagName('a')[0];
 		const langName = a.textContent;
 		const titleAndLanguage = a.getAttribute('title');
@@ -210,14 +143,16 @@
 			]
 			.find(testOn(titleAndLanguage));
 		const title = titleAndLanguage.replace(titleMatcher, '$1');
+		// if (langName in langs){
 		a.textContent = '';
 		a.appendChild(makeEl('span', { 'class': 'language-name' },
 			langName));
 		a.appendChild(document.createTextNode(' '));
 		a.appendChild(makeEl('span', { 'class': 'article-title' },
 			title));
+        // }
 	});
-
+    
 	// Styles.
 	sel('head').appendChild(makeEl('style', null,
 		`
@@ -231,13 +166,8 @@
 
 })();
 
-/*
-var button = document.createElement("Button");
-button.innerHTML = "Title";
-button.style = "top:0;right:0;position:absolute;z-index: 9999"
-document.body.appendChild(button);
-*/
-/* STICK TABLE HEADERS (bug) */
+
+/* STICK TABLE HEADERS (bug; doesn't work) */
 waitForKeyElements ("table.jquery-tablesorter", floatTableHeaders, true);
 
 function floatTableHeaders(table){
@@ -245,4 +175,4 @@ function floatTableHeaders(table){
 }
 
 /* ClEAN DONATION REQUEST */
-// GM.addStyle("html body #centralNotice, html body [id*=frbanner], html body [id*=frb-inline] { display: none !important; }");
+GM.addStyle("html body #centralNotice, html body [id*=frbanner], html body [id*=frb-inline] { display: none !important; }");

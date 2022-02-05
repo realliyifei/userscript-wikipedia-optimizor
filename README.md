@@ -2,7 +2,7 @@
 
 Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc sidebar, collapsible panel, explicit multilingual links, and handy optimizations
 
-## Features
+## Current Features
 
 1. **Smart TOC Sidebar:** a content sidebar, with shadow following the scrolling and hovering, and color changing after visited
 2. **Collapsible Panel:** a collapsible panel on left hand side, triggered by moving your cursor to the left
@@ -18,7 +18,7 @@ An omnipotent all-in-one optimizor of wikipedia, containing all the features men
 
 Note that this theme is still under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable now and you just need to follow the procedures in the installation section.
 
-### Academia Theme 
+### Academia Theme
 
 A black-and-white theme with clear citation links for academia and research, only contains the first feature.
 
@@ -30,13 +30,6 @@ A stunning newspaper-like reading experience with minimalism design, only contai
 
 ![](asset/warmpaper-theme-demo.png)
 
-## To-Do List of Features
-
-*  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
-* **External Search Links:** a set of customized external links for further search (e.g. google scholar, zhihu, douban, reddit, [wiki map](https://wikipedia.luk.ke))
-* **Various Themes:** in the "theme" section of  javascript file, you can change the theme to one of them:
-* Might also publish to gist and stylish
-
 ## Installation
 
 1. Install [Tampermonkey](http://www.tampermonkey.net/) to your browser if you don't have one yet.
@@ -45,6 +38,8 @@ A stunning newspaper-like reading experience with minimalism design, only contai
 ## Limitations
 
 This userscript has been tested *only* in English wikipedia pages, though it should be functionally general to all language versions.
+
+As for the feature candidates and bugs, see the [issues](https://github.com/realliyifei/userscript-wikipedia-optimizor/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
 ## Credits & License
 
