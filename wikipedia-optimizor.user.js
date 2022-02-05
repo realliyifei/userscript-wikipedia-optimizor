@@ -22,7 +22,7 @@
 // @require       https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.3.2/jquery.floatThead.min.js
 // @resource      LOCAL_DEV_CSS   file:///Users/yifeili/git-local/userscript-wikipedia-optimizor/theme/academia-dev.css
 // @resource      theme_academia  https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/academia.css
-// @resource      theme_warmpaper https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/
+// @resource      theme_warmpaper https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/warmpaper.css
 // @resource      theme_transformer https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/theme/transformer.css
 // @grant         GM_getResourceText
 // @grant         GM_addStyle
