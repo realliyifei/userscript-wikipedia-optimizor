@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          Wikipedia Optimizor
-// @version       1.0.0
+// @version       2.0.0
 // @description	  Wikipedia optimizor, with various themes, smart toc sidebar, explicit multilingual links, and other handy optimizations
 // @license       MIT
 // @author        Li, Yifei
