@@ -1,31 +1,38 @@
 # Wikipedia Optimizor (Tampermonkey Userscript)
 
-Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc sidebar, explicit multilingual links, and handy optimizations
+Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc sidebar, collapsible panel, explicit multilingual links, and handy optimizations
 
 ## Features
 
-* **Smart TOC Sidebar:** a content sidebar, with shadow following the scrolling, and color changing after visited
-* **Various Themes:** in the "theme" section of  javascript file, you can change the theme to one of them:
+1. **Smart TOC Sidebar:** a content sidebar, with shadow following the scrolling and hovering, and color changing after visited
+2. **Collapsible Panel:** a collapsible panel on left hand side, triggered by moving your cursor to the left
+3. **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles
+4. **Semitransparent Header and Search Box:** a semitransparent header and search box on the top, triggered by moving your cursor to the head
+5. **Hidden Warnings and Requests:** hide some warnings and donation request 
 
-### Academia Theme (default)
+### Transformer Theme (default)
 
-A black-and-white theme with clear citation links for academia and research
+An omnipotent all-in-one optimizor of wikipedia, containing all the features mentioned above
+
+Note that this theme is stil under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable and you can just need to follow the procedures in the installation section.
+
+### Academia Theme 
+
+A black-and-white theme with clear citation links for academia and research, only contain the first feature
 
 ![](asset/academia-theme-demo.png)
 
 ### Warmpaper Theme
 
-A stunning newspaper-like reading experience with minimalism design
+A stunning newspaper-like reading experience with minimalism design, only contain the first feature
 
 ![](asset/warmpaper-theme-demo.png)
 
-## Coming Later
+## To-Do List of Features
 
-*  **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles and the customization support
-*  **Collapsible Sidebar:** a collapsible sidebar of content based on the browser window size and mouse click 
-*  **Hidden Warnings and Requests:** the concealment of a bunch of warnings and donation request (only for warm paper theme)
-*  **External Search Links:** a set of customized external links for further search (e.g. google scholar, zhihu, douban, reddit, [wiki map](https://wikipedia.luk.ke))
 *  **Personal Account and Save Button:** The buttons for the personal page and save for later of the wikipedia account
+* **External Search Links:** a set of customized external links for further search (e.g. google scholar, zhihu, douban, reddit, [wiki map](https://wikipedia.luk.ke))
+* **Various Themes:** in the "theme" section of  javascript file, you can change the theme to one of them:
 * Might also publish to gist and stylish
 
 ## Installation
