@@ -11,8 +11,8 @@
 // @include       https://*.wikipedia.org/*
 // @include       http://en.wikipedia.org/wiki/File:*
 // @run-at        document-start
-// @downloadURL   https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/WikipediaOptimizor.user.js
-// @updateURL     https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/WikipediaOptimizor.user.js
+// @downloadURL   https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/wikipedia-optimizor.user.js
+// @updateURL     https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/wikipedia-optimizor.user.js
 // @supportURL    https://github.com/realliyifei/userscript-wikipedia-optimizor/issues
 // Notes: This require is for "LANGUAGE DISPLAY"
 // @require       https://code.jquery.com/jquery-3.2.1.min.js
@@ -30,11 +30,12 @@
 
 /* THEME */
 (function() {
-    // select theme here: acamida or warmpaper
-    // var css = GM_getResourceText("LOCAL_DEV_CSS"); // for local debug; only work in chrome
+    // SELECT THEME HERE: transformer, acamida, or warmpaper
+    var css = GM_getResourceText("theme_transformer");
     // var css = GM_getResourceText("theme_academia");
     // var css = GM_getResourceText("theme_warmpaper");
-    var css = GM_getResourceText("theme_transformer");
+    
+    // var css = GM_getResourceText("LOCAL_DEV_CSS"); // for local debug; only work in chrome
 
     if (false || (document.location.href.indexOf("http://en.wikipedia.org/wiki/File:") == 0))
 
