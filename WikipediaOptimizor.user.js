@@ -11,8 +11,8 @@
 // @include       https://*.wikipedia.org/*
 // @include       http://en.wikipedia.org/wiki/File:*
 // @run-at        document-start
-// @downloadURL   https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/WikipediaOptimizor.user.js
-// @updateURL     https://github.com/realliyifei/userscript-wikipedia-optimizor/blob/master/WikipediaOptimizor.user.js
+// @downloadURL   https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/WikipediaOptimizor.user.js
+// @updateURL     https://raw.githubusercontent.com/realliyifei/userscript-wikipedia-optimizor/master/WikipediaOptimizor.user.js
 // @supportURL    https://github.com/realliyifei/userscript-wikipedia-optimizor/issues
 // Notes: This require is for "LANGUAGE DISPLAY"
 // @require       https://code.jquery.com/jquery-3.2.1.min.js
