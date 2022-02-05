@@ -14,7 +14,7 @@ Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc si
 
 An omnipotent all-in-one optimizor of wikipedia, containing all the features mentioned above
 
-Note that this theme is still under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable now and you can just need to follow the procedures in the installation section.
+Note that this theme is still under development (beta version). Further work is required to patch and clean the css code snippet and adjust the aesthetic design. However, this transformer theme is usable now and you just need to follow the procedures in the installation section.
 
 ### Academia Theme 
 
