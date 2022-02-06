@@ -7,7 +7,7 @@ Userscript for wikipedia: Wikipedia optimizor, with various themes, smart toc si
 1. **Smart TOC Sidebar:** a content sidebar, with shadow following the scrolling and hovering, and color changing after visited
 2. **Collapsible Panel:** a collapsible panel on left hand side, triggered by moving your cursor to the left
 3. **Explicit Multilingual Link(s):** multilingual links to the corresponding wikipedia pages with explicit translated titles
-4. **Semitransparent Header and Search Box:** a semitransparent header and search box on the top, triggered by moving your cursor to the head
+4. **Translucent Header and Search Box:** a translucent header and search box on the top, triggered by moving your cursor to the head
 5. **Hidden Warnings and Requests:** hide some warnings and donation request 
 
 ## Themes
