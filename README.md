@@ -41,7 +41,7 @@ A stunning newspaper-like reading experience with minimalism design, only contai
 
 2.   This userscript is mainly developed by the default skin (Vector Legacy). Since it overwrites the website layout based on the official javascript/css, it only fits several official skins. Note that if you stay as guest or didn’t change the offical skin of wikipedia within your account, you’re likely using Vector Legacy and don’t need to worry about this.
 
-     |         Official Skin          | Fit or not? |                           Details                            |
+     |         Official Skin          |     Fit?    |                           Details                            |
      | :----------------------------: | :---------: | :----------------------------------------------------------: |
      | Vector Legacy (2010) - default |     ✓✓      | (Developed based on this) By if login, the panel will disappear [#4](https://github.com/realliyifei/userscript-wikipedia-optimizor/issues/4). |
      |         Vector (2022)          |      ✓      |                    Better in wide screen                     |
