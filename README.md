@@ -37,11 +37,21 @@ A stunning newspaper-like reading experience with minimalism design, only contai
 
 ## Limitations
 
-This userscript has been tested *only* in English wikipedia pages, though it should be functionally general to all language versions.
+1.   This userscript has been tested *only* in English wikipedia pages, though it should be functionally general to all language versions.
+
+2.   This userscript is mainly developed by the default skin (Vector Legacy). Since it overwrites the website layout based on the official javascript/css, it only fits several official skins. Note that if you stay as guest or didn’t change the offical skin of wikipedia within your account, you’re likely using Vector Legacy and don’t need to worry about this.
+
+     |         Official Skin          | Fit or not? |                           Details                            |
+     | :----------------------------: | :---------: | :----------------------------------------------------------: |
+     | Vector Legacy (2010) - default |     ✓✓      | (Developed based on this) By if login, the panel will disappear #4. |
+     |         Vector (2022)          |      ✓      |                    Better in wide screen                     |
+     |            Timeless            |      ✓      |                    Better in wide screen                     |
+     |            Monobook            |      ✗      |                    Miss panel and header                     |
+     |          MinervaNeue           |      ✗      |                         Miss content                         |
 
 As for the feature candidates and bugs, see the [issues](https://github.com/realliyifei/userscript-wikipedia-optimizor/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
 ## Credits & License
 
 * The aesthetic design of *Warmpaper Theme* is inspired by Caspid's [Wikipedia Paper — sidebar edition](https://userstyles.org/styles/99183/wikipedia-paper-sidebar-edition) from stylish. 
-* The code that implements collapsible panel and semitransparent header is mainly from Chen VinC's [Wikipedia Minima](https://userstyles.org/styles/166052/wikipedia-minima) from stylish.
+* The code that implements collapsible panel and semitransparent header is adapted from Chen VinC's [Wikipedia Minima](https://userstyles.org/styles/166052/wikipedia-minima) from stylish.
