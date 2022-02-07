@@ -43,7 +43,7 @@ A stunning newspaper-like reading experience with minimalism design, only contai
 
      |         Official Skin          | Fit or not? |                           Details                            |
      | :----------------------------: | :---------: | :----------------------------------------------------------: |
-     | Vector Legacy (2010) - default |     ✓✓      | (Developed based on this) By if login, the panel will disappear #4. |
+     | Vector Legacy (2010) - default |     ✓✓      | (Developed based on this) By if login, the panel will disappear [#4](https://github.com/realliyifei/userscript-wikipedia-optimizor/issues/4). |
      |         Vector (2022)          |      ✓      |                    Better in wide screen                     |
      |            Timeless            |      ✓      |                    Better in wide screen                     |
      |            Monobook            |      ✗      |                    Miss panel and header                     |
